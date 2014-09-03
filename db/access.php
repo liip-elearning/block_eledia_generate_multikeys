@@ -26,7 +26,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $capabilities = array(
 
-    'block/eledia_multikeys:addinstance' => array(
+    'block/eledia_multikeys:myaddinstance' => array(
         'captype' => 'write',
         'contextlevel' => CONTEXT_BLOCK,
         'clonepermissionsfrom' => 'moodle/site:manageblocks'
