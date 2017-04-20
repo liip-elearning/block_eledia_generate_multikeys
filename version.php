@@ -24,3 +24,4 @@
  */
 $plugin->version = '2013042902';
 $plugin->dependencies = array('enrol_elediamultikeys' => 2013042900);
+$plugin->component= 'block_eledia_multikeys';
